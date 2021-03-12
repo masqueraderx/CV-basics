@@ -1,9 +1,9 @@
-PWD /Users/gexueren/Desktop/computer vision basics/homography
+PWD /Users/gexueren/Desktop/CV basics/homography/tex
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.tex
-OUTPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.log
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.tex
+OUTPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.log
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
@@ -50,11 +50,23 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/pythonhighlight.sty
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/pythonhighlight.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.aux
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.aux
-OUTPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.aux
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.aux
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.aux
+OUTPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
@@ -89,17 +101,17 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-OUTPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.pdf
+OUTPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.pdf
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rotation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rotation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rotation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/translation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/translation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/translation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rotation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rotation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rotation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/translation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/translation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/translation.jpg
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
@@ -109,22 +121,27 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rigid body transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rigid body transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/rigid body transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/affine transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/affine transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/affine transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homograph transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homograph transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homograph transformation.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/coordinate system.png
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/coordinate system.png
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/coordinate system.png
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homography.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homography.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/homography.jpg
-INPUT /Users/gexueren/Desktop/computer vision basics/homography/Homegraph.aux
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rigid body transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rigid body transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/rigid body transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/affine transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/affine transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/affine transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homograph transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homograph transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homograph transformation.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/coordinate system.png
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/coordinate system.png
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/coordinate system.png
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homography.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homography.jpg
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/homography.jpg
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsltt10.tfm
+INPUT /Users/gexueren/Desktop/CV basics/homography/tex/Homegraph.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
@@ -134,7 +151,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsltt10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
